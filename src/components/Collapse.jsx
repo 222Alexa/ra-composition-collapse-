@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useRef } from "react";
 import SectionBlock from "./Sections/SectionBlock";
 import SectionBlockItem from "./Sections/SectionBlockItem";
 import { flowersData, bulletinData } from "../db/fakeData";
