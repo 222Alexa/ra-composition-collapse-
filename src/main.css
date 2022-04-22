@@ -1,0 +1,139 @@
+a {
+  text-decoration: none;
+}
+
+.body-container {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.flowers-card {
+  width: 32%;
+  border: 1px solid darkgreen;
+  background-color: darkseagreen;
+}
+.flowers-guide-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+.flowers-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h5.flowers-title-text {
+  margin: 0;
+  margin-top: 10px;
+  color: #000;
+  font-size: 1.1rem;
+}
+
+h5.flowers-unit-title-text {
+  margin-top: 10px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.link__flowers-card {
+  width: 100%;
+  height: 100%;
+}
+
+img.flowers-card-image.image-image {
+  width: 100%;
+  height: 180px;
+}
+
+.flowers-content-item-text {
+  color: #000;
+  font-size: 1rem;
+}
+
+.flowers-content{
+  
+  padding: 10px;
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s ease 0s;
+
+}
+.flowers-card__button-block {
+  margin-bottom: 10px;
+  height: 10%;
+}
+button.flowers-card-toggle-description__btn {
+  width: 130px;
+  height: 40px;
+}
+
+.flowers-content.active {
+  height: 500px;
+  transition: height 0.5s ease 0s;
+}
+
+
+/*builletin*/
+
+a.image-link.link__bulletin-card {
+    width: 400px;
+    height: 250px;
+}
+
+img.bulletin-card-image.image-image {
+    width: 100%;
+    height: 100%;
+}
+
+.bulletin-header {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bulletin-panel-container {
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    border: 1px solid darkseagreen;
+}
+
+h5.bulletin-title-text {
+    font-size: 2rem;
+    margin: 0;
+    color: green;
+}
+
+
+
+
+p.bulletin-card-text-link.bulletin-content-item-text {
+    color: #000;
+}
+
+button.bulletin-card-toggle-description__btn {
+    width: 170px;
+    height: 50px;
+    background-color: darkseagreen;
+    border-radius: 8px;
+}
+
+.bulletin-content.bulletin-card__content-row.active {}
+
+.bulletin-content{
+       
+  padding: 10px;
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s ease 0s;
+
+}
+.bulletin-content.active{
+    height: 100px;
+    transition: height 0.5s ease 0s;
+}
